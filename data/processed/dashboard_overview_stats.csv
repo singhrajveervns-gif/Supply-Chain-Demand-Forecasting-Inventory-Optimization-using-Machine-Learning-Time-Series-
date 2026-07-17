@@ -1,0 +1,2 @@
+total_rows,n_days,n_stores,n_items,n_categories,best_model,best_model_improvement_pct,n_high_stockout_risk
+9415478,1941,2,3049,3,random_forest,17.65,1525

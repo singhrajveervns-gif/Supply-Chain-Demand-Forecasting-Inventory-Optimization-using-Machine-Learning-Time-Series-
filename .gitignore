@@ -1,0 +1,48 @@
+# ============================================================
+# Large / regenerable data files — excluded from version control.
+# Regenerate by running notebooks/01_data_understanding_cleaning_eda.ipynb
+# and notebooks/03_feature_engineering.ipynb against the raw M5 data.
+# ============================================================
+data/raw/*.csv
+data/processed/cleaned_sales_data.csv
+data/processed/feature_engineered_data.csv
+
+# Development-only fault-tolerance checkpoints (not a deliverable)
+checkpoints/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+# ============================================================
+# Jupyter / Colab
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Streamlit
+# ============================================================
+.streamlit/secrets.toml
+
+# ============================================================
+# OS files
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Logs / misc
+# ============================================================
+*.log
+.env

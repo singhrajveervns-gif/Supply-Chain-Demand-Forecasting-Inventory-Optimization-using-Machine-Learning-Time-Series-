@@ -1,0 +1,11 @@
+label,mae,rmse,wmape,n_rows,fold,model
+Fold 0 — Naive,1.0462408,2.3723588,0.88231575,170650,0,naive
+Fold 0 — Seasonal Naive,1.0758219,2.5012848,0.90726197,170650,0,seasonal_naive
+Fold 1 — Naive,1.0917202,2.499781,0.87275034,170704,1,naive
+Fold 1 — Seasonal Naive,1.1160371,2.5377896,0.89219,170704,1,seasonal_naive
+Fold 2 — Naive,1.1111977,2.4433906,0.8706888,170732,2,naive
+Fold 2 — Seasonal Naive,1.1162641,2.4469776,0.87465864,170732,2,seasonal_naive
+Fold 3 — Naive,1.1237174,2.493824,0.86923903,170744,3,naive
+Fold 3 — Seasonal Naive,1.1450827,2.5181022,0.8857659,170744,3,seasonal_naive
+Fold 4 — Naive,1.1678126,2.468412,0.8610918,170744,4,naive
+Fold 4 — Seasonal Naive,1.1899511,2.4934707,0.87741566,170744,4,seasonal_naive
